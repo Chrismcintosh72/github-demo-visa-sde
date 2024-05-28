@@ -1,6 +1,50 @@
+* {
+  box-sizing: border-box;
+}
 button {
   background-color: blue;
 }
 html {
   background-color: gray;
+}
+section {
+  border: 5px solid green;
+  padding: 1em;
+  /* height: 100vh; */
+}
+article {
+  background-color: teal;
+
+  margin-bottom: 1em;
+}
+.outer_counter {
+  overflow-x: scroll;
+}
+
+#last_article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+  background-color: teal;
+  height: 80vh;
+}
+#first_article {
+  overflow-x: scroll;
+  display: flex;
+  width: fit-content;
+}
+#first_article p {
+  margin: 0 0.5em;
+  border-radius: 1em;
+}
+p {
+  border: 1px solid red;
+  color: aliceblue;
+  width: 300px;
+  height: 150px;
+}
+article,
+p {
+  padding: 1em;
 }
