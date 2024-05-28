@@ -12,8 +12,6 @@ section {
   padding: 1em;
 }
 article {
-  background-color: teal;
-
   margin-bottom: 1em;
 }
 .outer_counter {
@@ -25,7 +23,6 @@ article {
   flex-wrap: wrap;
   justify-content: space-evenly;
   overflow-y: scroll;
-  background-color: teal;
   height: 80vh;
 }
 #first_article {
@@ -33,11 +30,16 @@ article {
   display: flex;
   width: fit-content;
   height: 20em;
+  background-color: teal;
 }
 
 #first_article p {
   margin: 0 0.5em;
   border-radius: 1em;
+}
+#last_article p {
+  background-color: brown;
+  border-radius: 5%;
 }
 p {
   color: aliceblue;
