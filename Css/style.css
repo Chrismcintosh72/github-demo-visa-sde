@@ -8,9 +8,8 @@ html {
   background-color: gray;
 }
 section {
-  border: 5px solid green;
+  border: 5px solid black;
   padding: 1em;
-  /* height: 100vh; */
 }
 article {
   background-color: teal;
@@ -33,13 +32,14 @@ article {
   overflow-x: scroll;
   display: flex;
   width: fit-content;
+  height: 20em;
 }
+
 #first_article p {
   margin: 0 0.5em;
   border-radius: 1em;
 }
 p {
-  border: 1px solid red;
   color: aliceblue;
   width: 300px;
   height: 150px;
